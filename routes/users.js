@@ -1,8 +1,12 @@
 const express = require('express');
-const router = express.Router;
+const router = express.Router();
 
-const userController = require('../controllers/users_controller');
+const usersController = require('../controllers/users_controller');
 
-router.get('/profile', userController.profile);
+router.get('/profile', usersController.profile);
 
-module.exports = router;
+
+// for any further routes, access from here
+// router.use('/routerName', require("./routerfile"))
+
+module.exports = router; 
