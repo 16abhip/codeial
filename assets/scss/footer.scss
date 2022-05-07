@@ -1,0 +1,29 @@
+footer{
+    position: absolute;
+    top:100%;
+    width: 100%;
+    color: aliceblue;
+    background-color: #535d61;
+    height: 9%;
+    display: flex;
+    justify-items: baseline;
+    justify-content: flex-start;
+    align-items: flex-start;
+    h3{
+        margin: 10px 0 0 10px;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        text-align: justify;
+        color: aliceblue;
+        margin: 0;
+    }
+}
